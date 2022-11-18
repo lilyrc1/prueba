@@ -1,43 +1,88 @@
 body {
-    background-color: #0b2c3f;
+    background-color: #000000;
 }
 
 .navbar {
     color: #ffffff;
     background-color: #ffffff00;
-    position: static;
-
+    height: 80px;
 }
 
 .navbar-brand {
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Mukta', sans-serif;
+    font-size: 50px;
+    margin-left: 10px;
+    display: inline-block;
 }
 
-footer {
-    background-color: #035072;
+.chile-icon {
+    vertical-align: middle;
+    margin-bottom: 25px;
+}
+
+
+
+.chile-icon {
+    margin-left: 50px;
     
 }
 
-footer .brand {
-    margin-left: 30px;
-    font-size: 20px;
-    color: #ffffff;
-    font-family: 'Lobster Two', cursive;
-    font-weight: bold;
-}
-
-footer .icons {
-    color: #ffffff;
-}
 
 .destacados {
-    color: #ffffff
+    color: #ffffff;
+    text-align: center;
 }
 
 .contact {
     color: #ffffff;
+    text-align: center;
 }
 
-header {
-    z-index: 1000;
+.quienes-somos {
+    color: #ffffff;
+    text-align: center;
+}
+
+.col {
+    text-align: justify;
+    margin-left: 20px;
+    font-family: 'Mukta', sans-serif;
+    font-size: small;
+    font-weight: lighter;
+    color: #ffffff;  
+}
+
+h2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    size: 20px;
+    font-family: 'Mukta', sans-serif;
+
+
+}
+
+hr {
+    color: #ffffff;
+}
+
+
+footer {
+    background-color:#03bcdb;
+    height: 80px;   
+}
+
+footer .brand {
+    vertical-align: middle;
+    margin-left: 40px;
+    font-size: 40px;
+    color: #ffffff;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    height: 60px;   
+}
+
+footer .icons {
+    color: #ffffff;
+    font-size: 30px;
+    margin: 20px;
 }
