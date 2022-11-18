@@ -1,5 +1,4 @@
 body {
-    font-family: 'Barlow Condensed', sans-serif;
     background-color: #0b2c3f;
 }
 
@@ -8,6 +7,10 @@ body {
     background-color: #ffffff00;
     position: static;
 
+}
+
+.navbar-brand {
+    font-family: 'Lobster Two', cursive;
 }
 
 footer {
@@ -19,7 +22,7 @@ footer .brand {
     margin-left: 30px;
     font-size: 20px;
     color: #ffffff;
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Lobster Two', cursive;
     font-weight: bold;
 }
 
@@ -33,4 +36,8 @@ footer .icons {
 
 .contact {
     color: #ffffff;
+}
+
+header {
+    z-index: 1000;
 }
