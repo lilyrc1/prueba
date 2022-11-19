@@ -18,15 +18,12 @@ body {
 .chile-icon {
     vertical-align: middle;
     margin-bottom: 25px;
-}
-
-
-
-.chile-icon {
     margin-left: 50px;
-    
 }
+.nav-item {
+    float: right;
 
+}
 
 .destacados {
     color: #ffffff;
@@ -57,14 +54,24 @@ h2 {
     margin-bottom: 40px;
     size: 20px;
     font-family: 'Mukta', sans-serif;
-
-
 }
 
 hr {
     color: #ffffff;
 }
 
+.mb-3 {
+    font-family: 'Mukta', sans-serif;
+    color: #ffffff;
+}
+
+.formulario {
+    height: 800px;
+    width: 900px;
+    align-items: center;
+    margin: 0 auto;
+    
+}
 
 footer {
     background-color:#03bcdb;
@@ -72,8 +79,8 @@ footer {
 }
 
 footer .brand {
-    vertical-align: middle;
     margin-left: 40px;
+    padding-top: 10px;
     font-size: 40px;
     color: #ffffff;
     font-family: 'Mukta', sans-serif;
@@ -81,8 +88,16 @@ footer .brand {
     height: 60px;   
 }
 
-footer .icons {
+.icons {
     color: #ffffff;
     font-size: 30px;
-    margin: 20px;
+    margin: 30px;
+    float: right; 
 }
+
+.btn {
+    width: 80px;
+    height: 40px;
+    margin-left: 20px;
+    background-color: #03bcdb;
+    }
