@@ -6,6 +6,14 @@ body {
     color: #ffffff;
     background-color: #ffffff00;
     height: 80px;
+    position: fixed; top: 0%;
+    z-index: 10;
+    
+}
+.card {
+    margin: 0px auto;
+    margin-bottom: 30px;
+    
 }
 
 .navbar-brand {
@@ -20,9 +28,8 @@ body {
     margin-bottom: 10px;
     margin-left: 50px;
 }
-.nav-item {
-    float: right;
-
+.navbar-nav {
+    margin-left: 100px;
 }
 
 .destacados {
@@ -40,6 +47,13 @@ body {
     text-align: center;
 }
 
+@media (max-width: 577px) {
+    .information {
+      display: none ;
+    
+    }
+}
+
 .col {
     text-align: justify;
     margin-left: 20px;
@@ -49,12 +63,11 @@ body {
     color: #ffffff;  
 }
 
+
 .card-body {
+    color:#ffffff;
     background-color: #03bcdb;
-    color:#ffffff
 }
-
-
 
 h2 {
     margin-top: 40px;
@@ -76,13 +89,21 @@ hr {
     height: 800px;
     width: 550px;
     align-items: center;
-    margin: 0 auto;
-    
+    margin: 0 auto;   
 }
+
+.btn {
+    width: 80px;
+    height: 40px;
+    margin-left: 20px;
+    background-color: #03bcdb;
+    }
+
 
 footer {
     background-color:#03bcdb;
-    height: 80px;   
+    height: 80px; 
+  
 }
 
 footer .brand {
@@ -95,16 +116,11 @@ footer .brand {
     height: 60px;   
 }
 
+
 .icons {
     color: #ffffff;
     font-size: 30px;
     margin: 30px;
-    float: right; 
+    text-align: right;  
 }
 
-.btn {
-    width: 80px;
-    height: 40px;
-    margin-left: 20px;
-    background-color: #03bcdb;
-    }
