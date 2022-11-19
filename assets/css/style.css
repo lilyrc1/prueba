@@ -86,10 +86,10 @@ hr {
 }
 
 .formulario {
-    height: 800px;
-    width: 550px;
     align-items: center;
-    margin: 0 auto;   
+    margin: 0 auto;  
+    height: 800px;
+    width: 550px; 
 }
 
 .btn {
@@ -103,24 +103,70 @@ hr {
 footer {
     background-color:#03bcdb;
     height: 80px; 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
   
 }
 
-footer .brand {
-    margin-left: 40px;
-    padding-top: 10px;
+.brand {
+    padding-top: 30px;
+    margin-left: 100px;
+    text-align: left;
     font-size: 40px;
     color: #ffffff;
     font-family: 'Mukta', sans-serif;
     font-weight: bold;
-    height: 60px;   
+
+      
 }
 
 
-.icons {
+.git-hub {
     color: #ffffff;
     font-size: 30px;
-    margin: 30px;
-    text-align: right;  
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 60%;
+    padding-right: 10px;
+    display:inline-block;
+    
+    
+    
 }
 
+.linkedin {
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 10px;
+    display:inline-block;
+    
+}
+
+.twitter {
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 10px;
+    display:inline-block;
+   
+}
+
+.facebook {
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 50px;
+    display:inline-block;
+    
+}
