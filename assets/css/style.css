@@ -10,14 +10,14 @@ body {
 
 .navbar-brand {
     font-family: 'Mukta', sans-serif;
-    font-size: 50px;
+    font-size: 30px;
     margin-left: 10px;
     display: inline-block;
 }
 
 .chile-icon {
     vertical-align: middle;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     margin-left: 50px;
 }
 .nav-item {
@@ -49,6 +49,13 @@ body {
     color: #ffffff;  
 }
 
+.card-body {
+    background-color: #03bcdb;
+    color:#ffffff
+}
+
+
+
 h2 {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -67,7 +74,7 @@ hr {
 
 .formulario {
     height: 800px;
-    width: 900px;
+    width: 550px;
     align-items: center;
     margin: 0 auto;
     
