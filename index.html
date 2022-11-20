@@ -14,6 +14,7 @@
 <script src="https://kit.fontawesome.com/d0cd3df439.js" crossorigin="anonymous"></script>
 <!--CSS-->
 <link rel="stylesheet" href="assets/css/style.css">
+<link  rel="icon"   href="assets/img/viajes.svg" type="image/png" />
 </head>
 
 
@@ -98,18 +99,18 @@
 
   <!--quienes somos-->
 <div class="information">
- <div class="quienes-somos text-center">
-  <h2>¿QUIÉNES SOMOS?</h2>
- </div>
+  <div class="quienes-somos text-center">
+   <h2>¿QUIÉNES SOMOS?</h2>
+  </div>
   
-
+<div class="container">
  <div class="row">
  <div class="col-md-4">
-<div class="icon-container">
+  <div class="icon-container">
   <div class="container-sm text-center">
     <i class="icon fa-solid fa-plane"></i>
   </div>
-  </div>
+   </div>
     <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, asperiores repudiandae suscipit odio accusamus impedit animi molestias necessitatibus inventore. Quia dolore eius quos accusantium quod rerum consequuntur modi nam repellendus non. Repellendus ratione eligendi eum, hic consectetur rerum, accusantium modi cupiditate ipsa vitae pariatur alias sunt sit consequatur tempora! Temporibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eum accusantium a ut ab pariatur maiores nobis nam sequi voluptatum!</p>
 </div>
 
@@ -132,11 +133,13 @@
  </div>
 </div>
 </div>
+</div>
 
 <!--cards-->
 <section id="cards">
 <hr>
 <h2 class="destacados">DESTACADOS</h2>
+<div class="container">
 <div class="row">
 <div class="col-12 col-md-6 col-lg-3">
 <div class="card" style="width: 18rem;">
@@ -150,10 +153,10 @@
 
 <div class="col-12 col-md-6 col-lg-3">
 <div class="card" style="width: 18rem;">
-<img src="assets/img/card2.jpg" class="card-img-top" alt="zona norte chile">
+<img src="assets/img/card2.png" class="card-img-top" alt="zona norte chile">
 <div class="card-body">
 <h3>Lorem ipsum dolor sit amet.</h3>
-<p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum corporis aut perferendis ipsum vitae dolor. Ratione consequatu.</p>
+<p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum corporis aut perferendis ipsum vitae dolor. Ratione consequatur adipisci repellendus perferendis.</p>
 </div>
 </div>
 </div>
@@ -178,11 +181,14 @@
 </div>
 </div>
 </div>
+</div>
+
 </section>
 
 <!--formulario-->
 <hr>
 <h2 class="destacados">CONTACTO</h2>
+<div class="container">
 <form id="form">
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Nombre</label>
@@ -197,9 +203,12 @@
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
   </div>
   <div id="btn-form">
-  <button type="submit" class="btn btn-primary">Enviar</button>
+  <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="presiona para enviar">
+    Enviar
+  </button>
 </div>
 </form>
+</div>
 
 
 <!--footer-->
@@ -211,6 +220,7 @@
   <i class="linkedin text-end fa-brands fa-linkedin"></i>
   <i class="twitter text-end fa-brands fa-square-twitter"></i>
   <i class="facebook text-end fa-brands fa-square-facebook"></i>
+
 </footer>
 
  <!--bootstrap-->
