@@ -1,6 +1,6 @@
 
-$(document).ready(function(){
-    $("body").scrollspy({
-        target: "#myNavbar"
-    }) 
-});
+var btn = document.getElementById("btn-form");
+btn.addEventListener("click", function(){
+  alert("Tu mensaje se envió correctamente.")
+
+})
