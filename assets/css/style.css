@@ -10,11 +10,6 @@ body {
     z-index: 10;
     
 }
-.card {
-    margin: 0px auto;
-    margin-bottom: 30px;
-    
-}
 
 .navbar-brand {
     font-family: 'Mukta', sans-serif;
@@ -28,9 +23,7 @@ body {
     margin-bottom: 10px;
     margin-left: 50px;
 }
-.navbar-nav {
-    margin-left: 100px;
-}
+
 
 .destacados {
     color: #ffffff;
@@ -47,28 +40,52 @@ body {
     text-align: center;
 }
 
-@media (max-width: 577px) {
+.container-sm {
+    background-color: #03bcdb;
+}
+
+.icon-container {
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+  color: #ffffff;
+  padding-left: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.icon {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.paragraph {
+    text-align: justify;
+    font-family: 'Mukta', sans-serif;
+    font-size: small;
+    font-weight: lighter;
+    color: #ffffff;  
+
+}
+
+
+@media (max-width: 768px) {
     .information {
       display: none ;
     
     }
 }
 
-.col {
-    text-align: justify;
-    margin-left: 20px;
-    font-family: 'Mukta', sans-serif;
-    font-size: small;
-    font-weight: lighter;
-    color: #ffffff;  
-}
-
-
 .card-body {
     color:#ffffff;
     background-color: #03bcdb;
 }
-
+.card {
+    margin: 0px auto;
+    margin-bottom: 30px;
+    
+}
 h2 {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -85,19 +102,16 @@ hr {
     color: #ffffff;
 }
 
-.formulario {
-    align-items: center;
-    margin: 0 auto;  
-    height: 800px;
-    width: 550px; 
+#form .btn{
+    background-color: #03bcdb;
+    margin-bottom: 40px;
 }
 
-.btn {
-    width: 80px;
-    height: 40px;
-    margin-left: 20px;
-    background-color: #03bcdb;
-    }
+#form {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
 
 
 footer {
@@ -107,21 +121,18 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
 
-  
 }
 
 .brand {
     padding-top: 30px;
-    margin-left: 100px;
+    margin-left: 30px;
     text-align: left;
     font-size: 40px;
     color: #ffffff;
     font-family: 'Mukta', sans-serif;
     font-weight: bold;
-
-      
+   
 }
 
 
@@ -130,11 +141,10 @@ footer {
     font-size: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
-    padding-left: 60%;
+    padding-left: 30%;
     padding-right: 10px;
     display:inline-block;
-    
-    
+   
     
 }
 
@@ -166,7 +176,6 @@ footer {
     margin-top: 30px;
     margin-bottom: 30px;
     padding-left: 5px;
-    padding-right: 50px;
-    display:inline-block;
-    
+    padding-right: 10%;
+    display:inline-block;   
 }
